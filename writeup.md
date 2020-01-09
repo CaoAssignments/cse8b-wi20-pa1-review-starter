@@ -85,7 +85,7 @@ _1, 2, 3, 4, 5_
 
 ### Exercise 3. Rotating a 2-Dimensional Array
 
-In this exercise, you will write the `rotate2DArray(int[][] input, int rotations, boolean rotateRows)` method. This method should return a two-dimensional int array that represents the rotated version of the `input` 2D-array argument. The number of rotations to perform depends on the `rotations` argument, each row rotation will be done in the downwards direction, and each column rotation will be done in the right direction. If the `rotateRows` value is true, then rotate the rows of the 2D `input` array. If false, rotate the columns of the 2D `input` array. Assume that `input` will always be valid and not null.  
+In this exercise, you will write the `rotate2DArray(int[][] input, int rotations, boolean rotateRows)` method. This method should return a two-dimensional int array that represents the rotated version of the `input` 2D-array argument. The number of rotations to perform depends on the `rotations` argument, each row rotation will be done in the downwards direction, and each column rotation will be done in the right direction. If the `rotateRows` value is true, then rotate the rows of the 2D `input` array. If false, rotate the columns of the 2D `input` array. Assume that `input` will always be a valid non-null 2D array where all rows are of the same length.  
 **Tip:** try using the `rotate1DArray(int[] input, int rotations)` method when `rotateRows` is false to avoid rewriting code.
 
 **Example input array:**  
